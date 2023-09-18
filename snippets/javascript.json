@@ -1,0 +1,60 @@
+{
+  "IIFE": {
+    "prefix": "iife",
+    "description": "Immediately Invoked Function Expression",
+    "body": [
+      "(() => {",
+      "\t$0",
+      "})();"
+    ]
+  },
+  "Import React": {
+    "prefix": "imre",
+    "body": [
+      "import * as React from 'react';"
+    ],
+    "description": "Import React"
+  },
+  "React useCallback": {
+    "prefix": "ruc",
+    "description": "React useCallback def",
+    "body": "const ${1:fn} = React.useCallback(($2) => {$0}, []);"
+  },
+  "React useEffect": {
+    "prefix": "rue",
+    "description": "React useEffect def",
+    "body": [
+      "React.useEffect(() => {",
+      "\t$0",
+      "}, []);"
+    ]
+  },
+  "React useMemo": {
+    "prefix": "rum",
+    "description": "React useMemo def",
+    "body": "const ${1:myVal} = React.useMemo(() => $2, [$3]);$0"
+  },
+  "React useRef": {
+    "prefix": "rur",
+    "description": "React useRef def",
+    "body": "const ${1:myRef} = React.useRef<${2:number}>($0);"
+  },
+  "React useState": {
+    "prefix": "rus",
+    "description": "React useState def",
+    "body": "const [${1:x}, set${1/(.*)/${1:/capitalize}/}] = React.useState(${2:0});$0"
+  },
+  "ts-ignore comment": {
+    "prefix": "tsi",
+    "body": "// @ts-ignore",
+    "description": "ts-ignore comment"
+  },
+  "ts-expect-error comment": {
+    "prefix": "tse",
+    "body": "// @ts-expect-error $1"
+  },
+  "log": {
+    "prefix": "log",
+    "body": "console.log($0)"
+  }
+}

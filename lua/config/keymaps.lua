@@ -13,3 +13,5 @@ vim.keymap.set("n", "<leader>;", function()
   local r = unpack(vim.api.nvim_win_get_cursor(0))
   return require("mini.comment").toggle_lines(r, r)
 end)
+
+vim.keymap.set("n", "8", "*N");

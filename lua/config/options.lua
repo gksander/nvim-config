@@ -3,3 +3,4 @@
 -- Add any additional options here
 
 vim.opt.winbar = "%=%m %f"
+vim.g.user_emmet_leader_key = '<C-,>'
