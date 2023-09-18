@@ -20,7 +20,7 @@
           "javascriptreact",
           "typescriptreact"
         ],
-        path: "./html.json"
+        "path": "./html.json"
       }
     ]
   }

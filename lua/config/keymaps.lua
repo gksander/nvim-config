@@ -14,4 +14,5 @@ vim.keymap.set("n", "<leader>;", function()
   return require("mini.comment").toggle_lines(r, r)
 end)
 
+-- 8 selects currently-highlighted word
 vim.keymap.set("n", "8", "*N");
