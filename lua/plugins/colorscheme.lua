@@ -1,10 +1,11 @@
+-- OneDark, still holds a place in my heart.
 return {
   -- Add one dark
   {
     "navarasu/onedark.nvim",
     opts = {
-      style = "warm",
-      -- transparent = true
+      style = "cool",
+      transparent = true
     }
   },
 
@@ -16,3 +17,27 @@ return {
     },
   },
 }
+
+
+-- return {
+--   {
+--     "catppuccin/nvim",
+--     name = "catppuccin",
+--     opts = {
+--       flavour = "latte"
+--     }
+--   },
+--
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "catppuccin"
+--     }
+--   }
+-- }
+--
+-- return {
+--   "folke/tokyonight.nvim",
+--   lazy = true,
+--   opts = { style = "day" },
+-- }
